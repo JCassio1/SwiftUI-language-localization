@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Passport Localization
+
+  Created by MR.Robot 💀 on 26/07/2020.
+  Copyright © 2020 Joselson Dias. All rights reserved.
+*/
+
+"HelloString" = "Bonjour!";
+"LanguageHelp" = "Modifiez vos paramètres de langue en anglais, français ou portugais";

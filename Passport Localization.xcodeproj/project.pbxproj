@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2F3A25324CDB4EA0006C4DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A25224CDB4EA0006C4DA /* AppDelegate.swift */; };
+		F2F3A25524CDB4EA0006C4DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A25424CDB4EA0006C4DA /* SceneDelegate.swift */; };
+		F2F3A25724CDB4EA0006C4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3A25624CDB4EA0006C4DA /* ContentView.swift */; };
+		F2F3A25924CDB4F10006C4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A25824CDB4F10006C4DA /* Assets.xcassets */; };
+		F2F3A25C24CDB4F10006C4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A25B24CDB4F10006C4DA /* Preview Assets.xcassets */; };
+		F2F3A25F24CDB4F10006C4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A25D24CDB4F10006C4DA /* LaunchScreen.storyboard */; };
+		F2F3A26824CDB5500006C4DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2F3A26A24CDB5500006C4DA /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2F3A24F24CDB4EA0006C4DA /* Passport Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passport Localization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F3A25224CDB4EA0006C4DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2F3A25424CDB4EA0006C4DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2F3A25624CDB4EA0006C4DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2F3A25824CDB4F10006C4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F3A25B24CDB4F10006C4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2F3A25E24CDB4F10006C4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2F3A26024CDB4F10006C4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F3A26924CDB5500006C4DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2F3A26B24CDB5BE0006C4DA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F2F3A26C24CDB64C0006C4DA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F3A24C24CDB4EA0006C4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2F3A24624CDB4EA0006C4DA = {
+			isa = PBXGroup;
+			children = (
+				F2F3A25124CDB4EA0006C4DA /* Passport Localization */,
+				F2F3A25024CDB4EA0006C4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F3A25024CDB4EA0006C4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A24F24CDB4EA0006C4DA /* Passport Localization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F3A25124CDB4EA0006C4DA /* Passport Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A25224CDB4EA0006C4DA /* AppDelegate.swift */,
+				F2F3A25424CDB4EA0006C4DA /* SceneDelegate.swift */,
+				F2F3A25624CDB4EA0006C4DA /* ContentView.swift */,
+				F2F3A26A24CDB5500006C4DA /* Localizable.strings */,
+				F2F3A25824CDB4F10006C4DA /* Assets.xcassets */,
+				F2F3A25D24CDB4F10006C4DA /* LaunchScreen.storyboard */,
+				F2F3A26024CDB4F10006C4DA /* Info.plist */,
+				F2F3A25A24CDB4F10006C4DA /* Preview Content */,
+			);
+			path = "Passport Localization";
+			sourceTree = "<group>";
+		};
+		F2F3A25A24CDB4F10006C4DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3A25B24CDB4F10006C4DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F3A24E24CDB4EA0006C4DA /* Passport Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F3A26324CDB4F10006C4DA /* Build configuration list for PBXNativeTarget "Passport Localization" */;
+			buildPhases = (
+				F2F3A24B24CDB4EA0006C4DA /* Sources */,
+				F2F3A24C24CDB4EA0006C4DA /* Frameworks */,
+				F2F3A24D24CDB4EA0006C4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passport Localization";
+			productName = "Passport Localization";
+			productReference = F2F3A24F24CDB4EA0006C4DA /* Passport Localization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F3A24724CDB4EA0006C4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Joselson Dias";
+				TargetAttributes = {
+					F2F3A24E24CDB4EA0006C4DA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F2F3A24A24CDB4EA0006C4DA /* Build configuration list for PBXProject "Passport Localization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-PT",
+				fr,
+			);
+			mainGroup = F2F3A24624CDB4EA0006C4DA;
+			productRefGroup = F2F3A25024CDB4EA0006C4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F3A24E24CDB4EA0006C4DA /* Passport Localization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F3A24D24CDB4EA0006C4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3A25F24CDB4F10006C4DA /* LaunchScreen.storyboard in Resources */,
+				F2F3A26824CDB5500006C4DA /* Localizable.strings in Resources */,
+				F2F3A25C24CDB4F10006C4DA /* Preview Assets.xcassets in Resources */,
+				F2F3A25924CDB4F10006C4DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F3A24B24CDB4EA0006C4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F3A25324CDB4EA0006C4DA /* AppDelegate.swift in Sources */,
+				F2F3A25524CDB4EA0006C4DA /* SceneDelegate.swift in Sources */,
+				F2F3A25724CDB4EA0006C4DA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2F3A25D24CDB4F10006C4DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F3A25E24CDB4F10006C4DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2F3A26A24CDB5500006C4DA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F3A26924CDB5500006C4DA /* en */,
+				F2F3A26B24CDB5BE0006C4DA /* pt-PT */,
+				F2F3A26C24CDB64C0006C4DA /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2F3A26124CDB4F10006C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2F3A26224CDB4F10006C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F3A26424CDB4F10006C4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Passport Localization/Preview Content\"";
+				DEVELOPMENT_TEAM = 54272CAZ82;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Passport Localization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joselson.Passport-Localization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2F3A26524CDB4F10006C4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Passport Localization/Preview Content\"";
+				DEVELOPMENT_TEAM = 54272CAZ82;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Passport Localization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joselson.Passport-Localization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F3A24A24CDB4EA0006C4DA /* Build configuration list for PBXProject "Passport Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3A26124CDB4F10006C4DA /* Debug */,
+				F2F3A26224CDB4F10006C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F3A26324CDB4F10006C4DA /* Build configuration list for PBXNativeTarget "Passport Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F3A26424CDB4F10006C4DA /* Debug */,
+				F2F3A26524CDB4F10006C4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F3A24724CDB4EA0006C4DA /* Project object */;
+}
