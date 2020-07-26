@@ -44,6 +44,7 @@
 		F2F3A24624CDB4EA0006C4DA = {
 			isa = PBXGroup;
 			children = (
+				F2F3A26D24CDC7550006C4DA /* App-Assets */,
 				F2F3A25124CDB4EA0006C4DA /* Passport Localization */,
 				F2F3A25024CDB4EA0006C4DA /* Products */,
 			);
@@ -78,6 +79,13 @@
 				F2F3A25B24CDB4F10006C4DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2F3A26D24CDC7550006C4DA /* App-Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "App-Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
